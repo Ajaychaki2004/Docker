@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-293!y+mj9itrol+0#t=^autf&$sc%!@xt*g#g%_nf)n*pw$htk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -123,6 +123,9 @@ USE_L10N = True
 
 USE_TZ = True
 
+ALLOWED_HOSTS = [
+    'docker-production-f80c.up.railway.app'
+]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
